@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonaVault</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="sidebar left" id="leftSidebar">
+            <div class="sidebar-content">
+                <ul class="sidebar-menu">
+                    <li><a href="#" class="sidebar-link">Chat History</a></li>
+                    <li><a href="#" class="sidebar-link">Settings</a></li>
+                    <li><a href="#" class="sidebar-link">Help</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="sidebar right" id="rightSidebar">
+            <div class="sidebar-content">
+                <div class="profile">
+                    <h3>User Profile</h3>
+                    <p>Name: Josephine</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Interface -->
+        <div class="chat-interface">
+            <div id="chat-window" class="chat-window">
+                <!-- Chat messages will be dynamically inserted here -->
+            </div>
+            <div class="input-area">
+                <input type="text" id="chat-input" placeholder="Type a message..." class="chat-input">
+                <button id="send-btn" class="send-btn">Send</button>
+            </div>
+        </div>
+
+        <!-- Sidebar Toggle Buttons -->
+        <button class="sidebar-toggle left" id="toggleLeft">☰</button>
+        <button class="sidebar-toggle right" id="toggleRight">☰</button>
+    </div>
+
+    <script>
+        // Sidebar Toggle Functionality
+        const leftSidebar = document.getElementById("leftSidebar");
+        const rightSidebar = document.getElementById("rightSidebar");
+        const toggleLeft = document.getElementById("toggleLeft");
+        const toggleRight = document.getElementById("toggleRight");
+
+        if (toggleLeft && leftSidebar) {
+            toggleLeft.addEventListener("click", () => {
+                leftSidebar.classList.toggle("open");
+                // Close right sidebar if open
+                if (rightSidebar.classList.contains("open")) {
+                    rightSidebar.classList.remove("open");
+                }
+            });
+        }
+
+        if (toggleRight && rightSidebar) {
+            toggleRight.addEventListener("click", () => {
+                rightSidebar.classList.toggle("open");
+                // Close left sidebar if open
+                if (leftSidebar.classList.contains("open")) {
+                    leftSidebar.classList.remove("open");
+                }
+            });
+        }
+    </script>
+
+    <!-- Include your external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
