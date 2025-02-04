@@ -1,0 +1,69 @@
+/* ==================== */
+/* AI Agent Widget Styles */
+/* ==================== */
+
+.agent-widget {
+    background-color: var(--widget-background);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-medium);
+}
+
+.agent-avatar {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-small);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.agent-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-small);
+    color: var(--text-color);
+}
+
+.agent-info p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: var(--spacing-small);
+}
+
+.refresh-agent-btn {
+    width: 100%;
+    padding: var(--spacing-small);
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease;
+}
+
+.refresh-agent-btn:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.refresh-agent-btn:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+/* ==================== */
+/* Responsive Design */
+/* ==================== */
+
+@media (max-width: 768px) {
+    .agent-widget {
+        padding: var(--spacing-small);
+    }
+
+    .agent-avatar {
+        font-size: 1.5rem;
+    }
+
+    .agent-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .agent-info p {
+        font-size: 0.9rem;
+    }
+}

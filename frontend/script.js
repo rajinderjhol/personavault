@@ -1,112 +1,25 @@
+import { ChatWidget } from './components/ChatWidget.js';
+import { SettingsWidget } from './components/SettingsWidget.js';
+import { AgentWidget } from './components/AgentWidget.js';
+import { ErrorMessage } from './components/ErrorMessage.js';
+import { fetchModels } from './utils/api.js';
+
 document.addEventListener('DOMContentLoaded', () => {
-    // Select DOM elements
-    const chatWindow = document.getElementById('chat-window');
-    const chatInput = document.getElementById('chat-input');
-    const sendBtn = document.getElementById('send-btn');
+    const apiEndpoint = 'https://localhost:5001';
 
-    // Check if elements exist
-    if (!chatWindow || !chatInput || !sendBtn) {
-        console.error('One or more required elements are missing in the DOM.');
-        return; // Exit if any element is missing
-    }
+    // Initialize Components
+    const chatWidget = new ChatWidget('chat-widget-container', apiEndpoint);
+    const settingsWidget = new SettingsWidget('settings-widget-container');
+    const agentWidget = new AgentWidget('agent-widget-container');
+    const errorMessage = new ErrorMessage('error-message');
 
-    // Add event listeners
-    sendBtn.addEventListener('click', sendMessage);
-    chatInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') sendMessage();
-    });
-
-    // Function to send a message
-    async function sendMessage() {
-        const message = chatInput.value.trim();
-
-        // Validate input
-        if (!message) {
-            alert('Please enter a message.');
-            return; // Exit if the input is empty
-        }
-
-        // Add the user's message to the chat window
-        addMessage('user', message);
-        chatInput.value = ''; // Clear the input field
-
-        try {
-            // Send the message to the server
-            const response = await fetch('/chat', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message, user_id: 'default_user' })
-            });
-
-            // Check if the response is OK
-            if (!response.ok) {
-                throw new Error(`Server responded with status: ${response.status}`);
-            }
-
-            // Stream the response from the server
-            const reader = response.body.getReader();
-            const decoder = new TextDecoder('utf-8');
-            let aiMessageDiv = addMessage('ai', ''); // Create an empty AI message div
-            let buffer = ''; // Buffer to handle incomplete JSON chunks
-
-            // Function to read the stream
-            while (true) {
-                const { done, value } = await reader.read();
-                if (done) break;
-
-                // Decode the chunk and append it to the buffer
-                const chunk = decoder.decode(value, { stream: true });
-                buffer += chunk;
-
-                // Split the buffer by newline and process complete JSON objects
-                const jsonObjects = buffer.split('\n').filter(line => line.trim() !== '');
-
-                // Process all but the last JSON object (which might be incomplete)
-                for (let i = 0; i < jsonObjects.length - 1; i++) {
-                    try {
-                        const json = JSON.parse(jsonObjects[i]); // Parse each JSON object
-                        if (json.response) {
-                            aiMessageDiv.textContent += json.response; // Append the response to the AI message
-                        }
-                    } catch (error) {
-                        console.error('Error parsing JSON:', error);
-                        console.error('Problematic JSON string:', jsonObjects[i]);
-                    }
-                }
-
-                // Update the buffer with the last (potentially incomplete) JSON object
-                buffer = jsonObjects[jsonObjects.length - 1] || '';
-
-                // Scroll the chat window to the bottom
-                chatWindow.scrollTop = chatWindow.scrollHeight;
-            }
-
-            // Process any remaining data in the buffer
-            if (buffer.trim() !== '') {
-                try {
-                    const json = JSON.parse(buffer); // Parse the remaining JSON object
-                    if (json.response) {
-                        aiMessageDiv.textContent += json.response; // Append the response to the AI message
-                    }
-                } catch (error) {
-                    console.error('Error parsing JSON:', error);
-                    console.error('Problematic JSON string:', buffer);
-                }
-            }
-        } catch (error) {
-            // Handle errors
-            console.error('Error:', error);
-            addMessage('error', `Failed to send message: ${error.message}`);
-        }
-    }
-
-    // Function to add a message to the chat window
-    function addMessage(sender, message) {
-        const messageDiv = document.createElement('div');
-        messageDiv.className = sender === 'user' ? 'user-message' : sender === 'error' ? 'error-message' : 'ai-message';
-        messageDiv.textContent = message;
-        chatWindow.appendChild(messageDiv);
-        chatWindow.scrollTop = chatWindow.scrollHeight;
-        return messageDiv; // Return the created div for streaming updates
-    }
+    // Fetch models and populate dropdown
+    fetchModels(apiEndpoint)
+        .then(data => {
+            const modelSelect = document.getElementById('model-select');
+            modelSelect.innerHTML = data.models.map(model => `
+                <option value="${model}">${model}</option>
+            `).join('');
+        })
+        .catch(error => errorMessage.show(`Error fetching models: ${error.message}`));
 });

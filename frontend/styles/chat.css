@@ -1,0 +1,204 @@
+/* ==================== */
+/* Chat Widget Styles */
+/* ==================== */
+
+.chat-widget {
+    display: flex;
+    flex-direction: column;
+    height: 80vh; /* Adjust height to give more space for chat history */
+    background-color: var(--widget-background);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-medium);
+    box-sizing: border-box;
+    width: calc(99% - 2 * var(--spacing-medium)); /* Subtract padding from width */
+    margin-bottom: 20px; /* Add space below the ChatWidget */
+    max-width: 100%; /* Ensure chat widget does not exceed container width */
+    position: relative; /* Make this the positioning context for .footer */
+    padding-bottom: 60px; /* Add extra padding at the bottom for the button */
+}
+
+.chat-window {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: var(--spacing-medium);
+    padding: var(--spacing-small);
+    background-color: var(--input-background);
+    border: 1px solid var(--widget-border);
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+}
+
+.message {
+    margin-bottom: var(--spacing-small);
+    padding: var(--spacing-small);
+    border-radius: var(--border-radius);
+    max-width: 70%;
+    word-wrap: break-word;
+    animation: fadeIn var(--transition-speed) ease;
+    box-sizing: border-box;
+}
+
+.user-message {
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: var(--widget-background);
+    color: var(--text-color);
+    align-self: flex-start;
+    border: 1px solid var(--widget-border);
+}
+
+.chat-input-container {
+    display: flex;
+    gap: var(--spacing-small);
+    box-sizing: border-box;
+    width: 100%; /* Ensure input container takes full width */
+}
+
+.chat-input {
+    flex: 1;
+    padding: var(--spacing-small);
+    border: 1px solid var(--input-border);
+    border-radius: var(--border-radius);
+    background-color: var(--input-background);
+    color: var(--text-color);
+    transition: border-color var(--transition-speed) ease;
+    box-sizing: border-box;
+}
+
+.chat-input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.send-btn {
+    padding: var(--spacing-small) var(--spacing-medium);
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease;
+    box-sizing: border-box;
+}
+
+.send-btn:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.send-btn:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+/* ==================== */
+/* Footer Styles */
+/* ==================== */
+
+.footer {
+    position: absolute; /* Position relative to .chat-widget */
+    bottom: 0; /* Stick to the bottom of .chat-widget */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width of .chat-widget */
+    background-color: var(--widget-background);
+    padding: 0px; /* Add some padding */
+    text-align: center; /* Center-align the text */
+    font-size: 12px; /* Slightly larger font size */
+    color: #7e7c7c; /* Dark gray text color */
+    border-top: 0px solid #080000; /* Add a border at the top */
+    z-index: 1; /* Ensure it stays above other elements inside .chat-widget */
+}
+
+/* ==================== */
+/* Animations */
+/* ==================== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ==================== */
+/* Responsive Design */
+/* ==================== */
+
+@media (max-width: 768px) {
+    .chat-widget {
+        height: 60vh; /* Adjust height for smaller screens */
+    }
+
+    .message {
+        max-width: 90%;
+    }
+}
+
+/* ==================== */
+/* Test Chat Design */
+/* ==================== */
+
+.chat-widget-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.chat-input-container {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.send-btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* ==================== */
+/* Utility Classes */
+/* ==================== */
+
+.hidden {
+    display: none;
+}
+
+.loading-indicator,
+.typing-indicator,
+.error-message {
+    display: none;
+}
+
+.loading-indicator.visible,
+.typing-indicator.visible,
+.error-message.visible {
+    display: block;
+}

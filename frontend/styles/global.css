@@ -1,0 +1,240 @@
+/* ==================== */
+/* Global Styles */
+/* ==================== */
+
+:root {
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --base-font-size: 16px;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+    --border-radius: 8px;
+    --transition-speed: 0.3s;
+    --hover-bg-color: rgba(0, 123, 255, 0.1); /* Light blue hover background */
+}
+
+/* Light Theme */
+[data-theme="light"] {
+    --background-color: #f5f5f5;
+    --text-color: #333333;
+    --primary-color: #007bff;
+    --primary-hover-color: #0056b3;
+    --widget-background: #ffffff;
+    --widget-border: #e0e0e0;
+    --input-background: #ffffff;
+    --input-border: #cccccc;
+    --button-background: #007bff;
+    --button-text-color: #ffffff;
+    --error-color: #dc3545;
+    --success-color: #28a745;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+    --background-color: #1c1c1c; /* Main background - dark grey/black */
+    --text-color: #d1d1d1; /* Light grey for text */
+    --primary-color: #3a3a3a; /* Primary elements - dark grey */
+    --primary-hover-color: #5a5a5a; /* Hover state - medium grey */
+    --widget-background: #2a2a2a; /* Widget container background - slightly lighter than main background */
+    --widget-border: #3e3e3e; /* Borders - medium grey */
+    --chat-window-background: #1c1c1c; /* Chat window background - dark grey/black */
+    --input-background: #252525; /* Input fields - soft black */
+    --input-border: #454545; /* Input borders - slightly lighter grey */
+    --button-background: #424242; /* Button background - medium grey */
+    --button-hover-background: #5c5c5c; /* Button hover state - lighter grey */
+    --button-text-color: #e0e0e0; /* Button text - light grey */
+    --error-color: #ff5252; /* Error indicators - soft red */
+    --success-color: #66bb6a; /* Success indicators - soft green */
+    --scrollbar-background: #2b2b2b; /* Scrollbar background */
+    --scrollbar-thumb: #4e4e4e; /* Scrollbar thumb - slightly lighter grey */
+}
+
+/* Minimal Theme */
+[data-theme="minimal"] {
+    --background-color: #f9f9f9;
+    --text-color: #333333;
+    --primary-color: #555555;
+    --primary-hover-color: #333333;
+    --widget-background: #ffffff;
+    --widget-border: #e0e0e0;
+    --input-background: #ffffff;
+    --input-border: #cccccc;
+    --button-background: #555555;
+    --button-text-color: #ffffff;
+    --error-color: #ff6b6b;
+    --success-color: #4caf50;
+}
+
+/* ==================== */
+/* Base Styles */
+/* ==================== */ 
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: var(--base-font-size);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+    padding: var(--spacing-medium);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
+    max-width: 100vw; /* Ensure content does not exceed viewport width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    width: 99%; /* Ensure main container takes full width */
+}
+
+/* ==================== */
+/* Widget Containers */
+/* ==================== */
+
+.chat-widget-container,
+.chatwindow-widget-container,
+.settings-widget-container,
+.agent-widget-container,
+.profile-section {
+    border: 1px solid var(--widget-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-medium);
+    background-color: var(--widget-background);
+    margin-bottom: var(--spacing-medium);
+    box-sizing: border-box; /* Include padding in width calculation */
+    width: calc(99% - 2 * var(--spacing-medium)); /* Subtract padding from width */
+    max-width: 99%; /* Ensure widgets do not exceed container width */
+}
+
+/* ==================== */
+/* Forms and Inputs */
+/* ==================== */
+
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    padding: var(--spacing-small);
+    margin-bottom: var(--spacing-small);
+    border: 1px solid var(--input-border);
+    border-radius: var(--border-radius);
+    background-color: var(--input-background);
+    color: var(--text-color);
+    font-size: var(--base-font-size);
+    transition: border-color var(--transition-speed) ease;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+button {
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+button:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+/* ==================== */
+/* Error Messages */
+/* ==================== */
+
+.error-message {
+    color: var(--error-color);
+    font-size: 0.9rem;
+    margin-top: var(--spacing-small);
+    display: none;
+}
+
+/* ==================== */
+/* Responsive Design */
+/* ==================== */
+
+@media (max-width: 768px) {
+    .widget-container {
+        padding: var(--spacing-small);
+    }
+
+    .widget-title {
+        font-size: 1.2rem;
+    }
+
+    .widget-content {
+        max-height: none;
+    }
+}
+
+
+
+/* ==================== */
+/* navigation elements */
+/* ==================== */
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.navigation a {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: var(--hover-bg-color);
+}
+
+#register-form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+
+
+
+/* ==================== */
+/* Responsive Design */
+/* ==================== */
+.validating-session::before {
+    content: 'Loading...';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    font-size: 1.5rem;
+    color: #333;
+}

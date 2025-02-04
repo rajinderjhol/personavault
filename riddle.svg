@@ -1,0 +1,333 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg  width="1614.83" height="2565.5" viewBox="0 0 1614.83 2565.5" style="background-color: rgb(255, 255, 255)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.1">
+  <desc>Lekh Diagram</desc>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 255)" fill="none" d=" M 211.579,165.5  L 211.579,259  L 305.079,259  L 305.079,165.5  L 211.579,165.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(153, 153, 153)" fill="none" d=" M 129.357,156.368  L 161.336,244.229  L 249.197,212.25  L 217.218,124.389  L 129.357,156.368 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(153, 153, 153)" fill="none" d=" M 217.218,124.389  L 249.197,212.25  L 337.058,180.271  L 305.079,92.4099  L 217.218,124.389 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(153, 153, 153)" fill="none" d=" M 249.197,212.25  L 281.176,300.111  L 369.037,268.132  L 337.058,180.271  L 249.197,212.25 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(153, 153, 153)" fill="none" d=" M 161.336,244.229  L 193.315,332.09  L 281.176,300.111  L 249.197,212.25  L 161.336,244.229 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(255, 0, 0)" fill="none" d=" M 108.251,191  L 108.251,225.69  L 390.329,225.69  L 390.329,191  L 108.251,191 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 255, 0)" fill="none" d=" M 232.199,67  L 232.199,351  L 266.329,351  L 266.329,67  L 232.199,67 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(95, 180, 22)" fill="none" d=" M 232.199,165.5  L 232.199,260.25  L 233.199,260.25  L 233.199,165.5  L 232.199,165.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 255)" fill="none" d=" M 82.329,164.25  L 82.329,259  L 83.329,259  L 83.329,164.25  L 82.329,164.25 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(95, 180, 22)" fill="none" d=" M 265.329,165.5  L 265.329,260.25  L 266.329,260.25  L 266.329,165.5  L 265.329,165.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 255)" fill="none" d=" M 232.199,191  L 232.199,225.69  L 266.329,225.69  L 266.329,191  L 232.199,191 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(95, 180, 22)" fill="none" fill-opacity="0" d=" M 233.923,171.556  L 266.329,260.592  L 267.269,260.25  L 234.863,171.214  L 233.923,171.556 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 255)" fill="none" d=" M 209.079,45  L 209.079,46  L 302.579,46  L 302.579,45  L 209.079,45 "/>
+  <text  x="255.829" y="32" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">A</text>
+  <text  x="51.829" y="212.875" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">B</text>
+  <text  x="250.597" y="364" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">x</text>
+  <text  x="249.196" y="238.689" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">x</text>
+  <text  x="100.251" y="209" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">y</text>
+  <text  x="226.862" y="209" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">y</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1322.33,411  L 1562.33,411  L 1562.33,611  L 1322.33,611  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1322.33,431  L 1562.33,431 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1322.33,521  L 1562.33,521 "/>
+  <text  x="1442.33" y="421" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Bike:type</text>
+  <text  x="1323.33" y="476" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="1323.33" dy="-7.5">+wheels&lt;Wheel&gt;:List</tspan>
+    <tspan  x="1323.33" dy="15">- attribute2:tye</tspan>
+  </text>
+  <text  x="1323.33" y="566" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="1323.33" dy="-7.5">+ operation1(params)</tspan>
+    <tspan  x="1323.33" dy="15">- operation2(params)</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 602.329,411  L 842.329,411  L 842.329,611  L 602.329,611  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 602.329,431  L 842.329,431 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 602.329,521  L 842.329,521 "/>
+  <text  x="722.329" y="421" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Car:Type</text>
+  <text  x="603.329" y="476" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="603.329" dy="-15">+</tspan>
+    <tspan  x="603.329" dy="15"> wheels&lt;Wheel&gt;:List</tspan>
+    <tspan  x="603.329" dy="15">- attribute2:tye</tspan>
+  </text>
+  <text  x="603.329" y="566" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="603.329" dy="-7.5">+ operation1(params)</tspan>
+    <tspan  x="603.329" dy="15">- operation2(params)</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 903.329,137.25  L 1133.33,137.25  L 1133.33,287.25  L 903.329,287.25  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 903.329,172.25  L 1133.33,172.25 "/>
+  <text  x="1018.33" y="154.75" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="1018.33" dy="-7.5">&lt;&lt;interface&gt;&gt;</tspan>
+    <tspan  x="1018.33" dy="15">Mobility</tspan>
+  </text>
+  <text  x="904.329" y="229.75" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="904.329" dy="-7.5">+ operation1(params)</tspan>
+    <tspan  x="904.329" dy="15">- operation2(params)</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 866.329,807  L 1106.33,807  L 1106.33,1007  L 866.329,1007  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 866.329,827  L 1106.33,827 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 866.329,917  L 1106.33,917 "/>
+  <text  x="986.329" y="817" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Wheel</text>
+  <text  x="867.329" y="872" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="867.329" dy="-7.5">+ attribute1:type</tspan>
+    <tspan  x="867.329" dy="15">- attribute2:tye</tspan>
+  </text>
+  <text  x="867.329" y="962" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="867.329" dy="-7.5">+ operation1(params)</tspan>
+    <tspan  x="867.329" dy="15">- operation2(params)</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 598.329,469.082  L 538.329,469.082  L 538.329,907  L 862.329,907 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 852.329,900.5  L 852.329,913.5  L 862.329,907  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 1318.33,471.347  L 1193.53,471.347  L 1193.53,907  L 1110.33,907 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 1120.33,913.5  L 1120.33,900.5  L 1110.33,907  Z "/>
+  <text  x="578.501" y="454.5" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">0</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 450.329,124.375  L 690.329,124.375  L 690.329,324.375  L 450.329,324.375  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 450.329,144.375  L 690.329,144.375 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 450.329,234.375  L 690.329,234.375 "/>
+  <text  x="570.329" y="134.375" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">List</text>
+  <text  x="451.329" y="189.375" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="451.329" dy="-7.5">+ attribute1:type</tspan>
+    <tspan  x="451.329" dy="15">- attribute2:tye</tspan>
+  </text>
+  <text  x="451.329" y="279.375" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="451.329" dy="-7.5">+ operation1(params)</tspan>
+    <tspan  x="451.329" dy="15">- operation2(params)</tspan>
+  </text>
+  <text  x="778.329" y="895.5" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">4</text>
+  <text  x="1170.5" y="895.5" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">2</text>
+  <path  stroke-dasharray="2, 2"  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 722.329,407  L 722.329,349.125  L 1018.33,349.125  L 1018.33,291.25 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1011.83,311.25  L 1024.83,311.25  L 1018.33,291.25  Z "/>
+  <path  stroke-dasharray="2, 2"  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 1446.3,407  L 1446.3,349.25  L 1018.33,349.25  L 1018.33,291.25 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1011.83,311.25  L 1024.83,311.25  L 1018.33,291.25  Z "/>
+  <path  stroke-dasharray="6, 6"  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 572.384,1689.66  L 324.848,1689.66  L 324.848,1782 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 332.848,1772  L 324.848,1782  L 316.848,1772 "/>
+  <path  stroke-dasharray="6, 6"  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 572.384,1915  L 327.828,1915  L 327.828,1870 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 562.384,1907  L 572.384,1915  L 562.384,1923 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 766.158,1254.88  L 620.384,1254.88  L 620.384,1634.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 626.884,1624.5  L 613.884,1624.5  L 620.384,1634.5  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1670.5  L 720.384,1670.5  L 720.384,1750.5  L 590.784,1750.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1670.5  L 590.784,1683.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1697.17  L 590.784,1723.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1737.17  L 590.784,1750.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 576.384,1683.83  L 605.184,1683.83  L 605.184,1697.17  L 576.384,1697.17  L 576.384,1683.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 576.384,1723.83  L 605.184,1723.83  L 605.184,1737.17  L 576.384,1737.17  L 576.384,1723.83 "/>
+  <text  x="662.784" y="1710.5" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="662.784" dy="-7.5">&lt;&lt;webServer&gt;&gt;</tspan>
+    <tspan  x="662.784" dy="15">vite.py</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 614.328,1875  L 614.328,1868.6 "/>
+  <ellipse  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" cx="614.328" cy="1855.8"  rx="12.8" ry="12" transform="rotate(270 614.328 1855.8)"/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 619.12,1754.5  C 619.12,1788.3 618.274,1805.2 618.274,1839 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 624.774,1829  L 611.774,1829  L 618.274,1839  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 679.515,1871  L 680.823,1666.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 674.259,1676.46  L 687.259,1676.54  L 680.823,1666.5  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 682.022,1666.5  L 682.022,1295.42  L 766.158,1295.42 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 756.158,1288.92  L 756.158,1301.92  L 766.158,1295.42  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 1002.33,1973.15  L 1059.38,1973.15  L 1059.38,1963  L 1150.66,1963 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 1140.66,1956.5  L 1140.66,1969.5  L 1150.66,1963  Z "/>
+  <path  stroke-dasharray="8, 8"  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 648.384,1959  L 648.384,1978.07  L 850.329,1978.07 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 840.329,1970.07  L 850.329,1978.07  L 840.329,1986.07 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 1122.67,2039.87  L 1076.46,2039.87  L 1076.46,1998.5  L 1002.33,1998.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 1012.33,2005  L 1012.33,1992  L 1002.33,1998.5  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 850.329,2019.84  L 759.468,2019.84  L 759.468,1898  L 680.604,1898  L 680.604,1871 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 674.104,1881  L 687.104,1881  L 680.604,1871  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 926.329,2042.5  L 926.329,2439 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 932.829,2429  L 919.829,2429  L 926.329,2439  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 330.345,2054  L 330.345,2099  L 466.329,2099 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 456.329,2092.5  L 456.329,2105.5  L 466.329,2099  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 542.328,2143  L 542.328,2176.05  L 654.329,2176.05 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 644.329,2169.55  L 644.329,2182.55  L 654.329,2176.05  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 1034.33,1463  L 1034.33,1495  L 1034.33,1527 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 1040.83,1517  L 1027.83,1517  L 1034.33,1527  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1531  L 1106.33,1531  L 1106.33,1611  L 976.73,1611 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1531  L 976.73,1544.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1557.67  L 976.73,1584.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1597.67  L 976.73,1611 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 962.33,1544.33  L 991.13,1544.33  L 991.13,1557.67  L 962.33,1557.67  L 962.33,1544.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 962.33,1584.33  L 991.13,1584.33  L 991.13,1597.67  L 962.33,1597.67  L 962.33,1584.33 "/>
+  <text  x="1048.73" y="1571" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Settings.js</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 620.384,1670.5  L 620.384,1664.1 "/>
+  <ellipse  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" cx="620.384" cy="1651.3"  rx="12.8" ry="12" transform="rotate(270 620.384 1651.3)"/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 988.039,1527  C 988.039,1375.89 625.869,1483.39 625.869,1634.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 632.369,1624.5  L 619.369,1624.5  L 625.869,1634.5  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 328.43,1870  L 329.743,1966 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 336.105,1955.91  L 323.107,1956.09  L 329.743,1966  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 270.228,1786  L 399.828,1786  L 399.828,1866  L 270.228,1866 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 270.228,1786  L 270.228,1799.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 270.228,1812.67  L 270.228,1839.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 270.228,1852.67  L 270.228,1866 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 255.828,1799.33  L 284.628,1799.33  L 284.628,1812.67  L 255.828,1812.67  L 255.828,1799.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 255.828,1839.33  L 284.628,1839.33  L 284.628,1852.67  L 255.828,1852.67  L 255.828,1839.33 "/>
+  <text  x="342.228" y="1826" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="342.228" dy="-7.5">app.py</tspan>
+    <tspan  x="342.228" dy="15">&lt;&lt;server&gt;&gt;</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 672.729,2155  L 802.329,2155  L 802.329,2235  L 672.729,2235 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 672.729,2155  L 672.729,2168.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 672.729,2181.67  L 672.729,2208.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 672.729,2221.67  L 672.729,2235 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 658.329,2168.33  L 687.129,2168.33  L 687.129,2181.67  L 658.329,2181.67  L 658.329,2168.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 658.329,2208.33  L 687.129,2208.33  L 687.129,2221.67  L 658.329,2221.67  L 658.329,2208.33 "/>
+  <text  x="744.729" y="2195" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">SQL db adapter</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 372.88,1870  C 372.88,2048.57 475.758,2216.53 654.329,2216.53 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 644.329,2210.03  L 644.329,2223.03  L 654.329,2216.53  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 860.34,1319  L 860.34,1344.33  L 1034.33,1344.33  L 1034.33,1375 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 1040.83,1365  L 1027.83,1365  L 1034.33,1375  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 270.228,1786  L 399.828,1786  L 399.828,1866  L 270.228,1866 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 270.228,1786  L 270.228,1799.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 270.228,1812.67  L 270.228,1839.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 270.228,1852.67  L 270.228,1866 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 255.828,1799.33  L 284.628,1799.33  L 284.628,1812.67  L 255.828,1812.67  L 255.828,1799.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 255.828,1839.33  L 284.628,1839.33  L 284.628,1852.67  L 255.828,1852.67  L 255.828,1839.33 "/>
+  <text  x="342.228" y="1826" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="342.228" dy="-7.5">app.py</tspan>
+    <tspan  x="342.228" dy="15">&lt;&lt;server&gt;&gt;</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1670.5  L 720.384,1670.5  L 720.384,1750.5  L 590.784,1750.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1670.5  L 590.784,1683.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1697.17  L 590.784,1723.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1737.17  L 590.784,1750.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 576.384,1683.83  L 605.184,1683.83  L 605.184,1697.17  L 576.384,1697.17  L 576.384,1683.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 576.384,1723.83  L 605.184,1723.83  L 605.184,1737.17  L 576.384,1737.17  L 576.384,1723.83 "/>
+  <text  x="662.784" y="1710.5" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="662.784" dy="-7.5">&lt;&lt;webServer&gt;&gt;</tspan>
+    <tspan  x="662.784" dy="15">vite.py</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 620.384,1670.5  L 620.384,1664.1 "/>
+  <ellipse  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" cx="620.384" cy="1651.3"  rx="12.8" ry="12" transform="rotate(270 620.384 1651.3)"/>
+  <text  x="681.356" y="1650" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">https 5173</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1875  L 720.384,1875  L 720.384,1955  L 590.784,1955 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1875  L 590.784,1888.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1901.67  L 590.784,1928.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 590.784,1941.67  L 590.784,1955 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 576.384,1888.33  L 605.184,1888.33  L 605.184,1901.67  L 576.384,1901.67  L 576.384,1888.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 576.384,1928.33  L 605.184,1928.33  L 605.184,1941.67  L 576.384,1941.67  L 576.384,1928.33 "/>
+  <text  x="662.784" y="1915" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="662.784" dy="-7.5">&lt;&lt;webServer&gt;&gt;</tspan>
+    <tspan  x="662.784" dy="15">xzy.py</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 614.328,1875  L 614.328,1868.6 "/>
+  <ellipse  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" cx="614.328" cy="1855.8"  rx="12.8" ry="12" transform="rotate(270 614.328 1855.8)"/>
+  <text  x="681.356" y="1854.5" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">https 5001</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 784.558,1235  L 914.158,1235  L 914.158,1315  L 784.558,1315 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 784.558,1235  L 784.558,1248.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 784.558,1261.67  L 784.558,1288.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 784.558,1301.67  L 784.558,1315 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 770.158,1248.33  L 798.958,1248.33  L 798.958,1261.67  L 770.158,1261.67  L 770.158,1248.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 770.158,1288.33  L 798.958,1288.33  L 798.958,1301.67  L 770.158,1301.67  L 770.158,1288.33 "/>
+  <text  x="856.558" y="1275" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="856.558" dy="-7.5">frontend.js</tspan>
+    <tspan  x="856.558" dy="15">&lt;&lt;browser&gt;&gt;</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1141.07,1979  L 1270.67,1979  L 1270.67,2059  L 1141.07,2059 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1141.07,1979  L 1141.07,1992.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1141.07,2005.67  L 1141.07,2032.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1141.07,2045.67  L 1141.07,2059 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1126.67,1992.33  L 1155.47,1992.33  L 1155.47,2005.67  L 1126.67,2005.67  L 1126.67,1992.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1126.67,2032.33  L 1155.47,2032.33  L 1155.47,2045.67  L 1126.67,2045.67  L 1126.67,2032.33 "/>
+  <text  x="1213.07" y="2019" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Component</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 1166.67,1979  L 1166.67,1972.6 "/>
+  <ellipse  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" cx="1166.67" cy="1959.8"  rx="12.8" ry="12" transform="rotate(270 1166.67 1959.8)"/>
+  <text  x="1230.67" y="1958.5" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">http 11434</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 868.729,1958.5  L 998.329,1958.5  L 998.329,2038.5  L 868.729,2038.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 868.729,1958.5  L 868.729,1971.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 868.729,1985.17  L 868.729,2011.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 868.729,2025.17  L 868.729,2038.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 854.329,1971.83  L 883.129,1971.83  L 883.129,1985.17  L 854.329,1985.17  L 854.329,1971.83 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 854.329,2011.83  L 883.129,2011.83  L 883.129,2025.17  L 854.329,2025.17  L 854.329,2011.83 "/>
+  <text  x="940.729" y="1998.5" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="940.729" dy="-30">backend rest</tspan>
+    <tspan  x="940.729" dy="15"> client</tspan>
+    <tspan  x="940.729" dy="15">OLAMA Client</tspan>
+    <tspan  x="940.729" dy="30">request</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 286.761,2398.85  L 365.68,2387  L 1075.95,2387  L 997.033,2398.85  L 286.761,2398.85 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 997.033,2398.85  L 997.033,2545  L 1075.95,2533.15  L 1075.95,2387 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 286.761,2398.85  L 286.761,2545  L 997.033,2545  L 997.033,2398.85 "/>
+  <text  x="641.897" y="2471.93" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="641.897" dy="-15">Node</tspan>
+    <tspan  x="641.897" dy="30">Localhost</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 866.329,2443  L 986.329,2443  L 986.329,2510.37  Q 956.329,2493.53 926.329,2510.37  Q 896.329,2527.21 866.329,2510.37  L 866.329,2443  L 866.329,2443 "/>
+  <text  x="926.329" y="2476.2" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Logs</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 720.385,2436.61  C 720.385,2460.87 720.385,2485.13 720.385,2509.39  C 723.718,2525.57 817.051,2525.57 820.385,2509.39  C 820.385,2485.13 820.385,2460.87 820.385,2436.61  C 817.051,2420.43 723.718,2420.43 720.385,2436.61 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 720.385,2443.51  C 723.718,2459.68 817.051,2459.68 820.385,2443.51  M 720.385,2450.41  C 723.718,2466.59 817.051,2466.59 820.385,2450.41  M 720.385,2436.61  C 723.718,2452.78 817.051,2452.78 820.385,2436.61 "/>
+  <text  x="770.385" y="2486.71" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Data Store</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 272.745,1970  L 402.345,1970  L 402.345,2050  L 272.745,2050 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 272.745,1970  L 272.745,1983.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 272.745,1996.67  L 272.745,2023.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 272.745,2036.67  L 272.745,2050 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 258.345,1983.33  L 287.145,1983.33  L 287.145,1996.67  L 258.345,1996.67  L 258.345,1983.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 258.345,2023.33  L 287.145,2023.33  L 287.145,2036.67  L 258.345,2036.67  L 258.345,2023.33 "/>
+  <text  x="344.745" y="2010" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="344.745" dy="-22.5">concrete</tspan>
+    <tspan  x="344.745" dy="15"> business</tspan>
+    <tspan  x="344.745" dy="15"> in</tspan>
+    <tspan  x="344.745" dy="15"> Alchemy</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 484.729,2059  L 614.328,2059  L 614.328,2139  L 484.729,2139 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 484.729,2059  L 484.729,2072.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 484.729,2085.67  L 484.729,2112.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 484.729,2125.67  L 484.729,2139 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 470.329,2072.33  L 499.129,2072.33  L 499.129,2085.67  L 470.329,2085.67  L 470.329,2072.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 470.329,2112.33  L 499.129,2112.33  L 499.129,2125.67  L 470.329,2125.67  L 470.329,2112.33 "/>
+  <text  x="556.729" y="2099" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">achemy</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 672.729,2155  L 802.329,2155  L 802.329,2235  L 672.729,2235 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 672.729,2155  L 672.729,2168.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 672.729,2181.67  L 672.729,2208.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 672.729,2221.67  L 672.729,2235 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 658.329,2168.33  L 687.129,2168.33  L 687.129,2181.67  L 658.329,2181.67  L 658.329,2168.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 658.329,2208.33  L 687.129,2208.33  L 687.129,2221.67  L 658.329,2221.67  L 658.329,2208.33 "/>
+  <text  x="744.729" y="2195" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">SQL db adapter</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1379  L 1106.33,1379  L 1106.33,1459  L 976.73,1459 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1379  L 976.73,1392.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1405.67  L 976.73,1432.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1445.67  L 976.73,1459 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 962.33,1392.33  L 991.13,1392.33  L 991.13,1405.67  L 962.33,1405.67  L 962.33,1392.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 962.33,1432.33  L 991.13,1432.33  L 991.13,1445.67  L 962.33,1445.67  L 962.33,1432.33 "/>
+  <text  x="1048.73" y="1419" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">chat</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1531  L 1106.33,1531  L 1106.33,1611  L 976.73,1611 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1531  L 976.73,1544.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1557.67  L 976.73,1584.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 976.73,1597.67  L 976.73,1611 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 962.33,1544.33  L 991.13,1544.33  L 991.13,1557.67  L 962.33,1557.67  L 962.33,1544.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 962.33,1584.33  L 991.13,1584.33  L 991.13,1597.67  L 962.33,1597.67  L 962.33,1584.33 "/>
+  <text  x="1048.73" y="1571" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Settings.js</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 34.8996,2059  L 164.5,2059  L 164.5,2139  L 34.8996,2139 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 34.8996,2059  L 34.8996,2072.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 34.8996,2085.67  L 34.8996,2112.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 34.8996,2125.67  L 34.8996,2139 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 20.4996,2072.33  L 49.2996,2072.33  L 49.2996,2085.67  L 20.4996,2085.67  L 20.4996,2072.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 20.4996,2112.33  L 49.2996,2112.33  L 49.2996,2125.67  L 20.4996,2125.67  L 20.4996,2112.33 "/>
+  <text  x="106.9" y="2099" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">ModelAlchemy</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 143.757,2163  L 273.357,2163  L 273.357,2243  L 143.757,2243 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 143.757,2163  L 143.757,2176.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 143.757,2189.67  L 143.757,2216.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 143.757,2229.67  L 143.757,2243 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 129.357,2176.33  L 158.157,2176.33  L 158.157,2189.67  L 129.357,2189.67  L 129.357,2176.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 129.357,2216.33  L 158.157,2216.33  L 158.157,2229.67  L 129.357,2229.67  L 129.357,2216.33 "/>
+  <text  x="215.757" y="2203" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="215.757" dy="-7.5">model settings</tspan>
+    <tspan  x="215.757" dy="15"> adapter</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1464.73,2323  L 1594.33,2323  L 1594.33,2403  L 1464.73,2403 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1464.73,2323  L 1464.73,2336.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1464.73,2349.67  L 1464.73,2376.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1464.73,2389.67  L 1464.73,2403 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1450.33,2336.33  L 1479.13,2336.33  L 1479.13,2349.67  L 1450.33,2349.67  L 1450.33,2336.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1450.33,2376.33  L 1479.13,2376.33  L 1479.13,2389.67  L 1450.33,2389.67  L 1450.33,2376.33 "/>
+  <text  x="1536.73" y="2363" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="1536.73" dy="-7.5">Model</tspan>
+    <tspan  x="1536.73" dy="15">OLAMA</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1296.73,2323  L 1426.33,2323  L 1426.33,2403  L 1296.73,2403 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1296.73,2323  L 1296.73,2336.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1296.73,2349.67  L 1296.73,2376.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1296.73,2389.67  L 1296.73,2403 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1282.33,2336.33  L 1311.13,2336.33  L 1311.13,2349.67  L 1282.33,2349.67  L 1282.33,2336.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1282.33,2376.33  L 1311.13,2376.33  L 1311.13,2389.67  L 1282.33,2389.67  L 1282.33,2376.33 "/>
+  <text  x="1368.73" y="2363" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">olamasever</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1245.07,2083  L 1374.67,2083  L 1374.67,2163  L 1245.07,2163 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1245.07,2083  L 1245.07,2096.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1245.07,2109.67  L 1245.07,2136.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1245.07,2149.67  L 1245.07,2163 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1230.67,2096.33  L 1259.47,2096.33  L 1259.47,2109.67  L 1230.67,2109.67  L 1230.67,2096.33 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(255, 255, 255)" d=" M 1230.67,2136.33  L 1259.47,2136.33  L 1259.47,2149.67  L 1230.67,2149.67  L 1230.67,2136.33 "/>
+  <text  x="1317.07" y="2123" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">model adapter</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 926.329,2042.5  L 926.329,2363  L 1278.33,2363 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 1268.33,2356.5  L 1268.33,2369.5  L 1278.33,2363  Z "/>
+</svg>

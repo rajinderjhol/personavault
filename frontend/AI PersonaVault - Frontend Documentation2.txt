@@ -1,0 +1,182 @@
+AI PersonaVault - Frontend Documentation
+========================================
+
+Overview
+--------
+AI PersonaVault is a web application designed to interact with an AI chatbot and manage user memories. The frontend is built using modern web technologies, including HTML, CSS, and JavaScript (ES6+). It provides a user-friendly interface for chatting with the AI, managing settings, and storing/retrieving memories.
+
+The frontend integrates with a backend API (Flask-based) for data storage, real-time communication, and AI processing. The backend handles user authentication, session management, AI model interactions, and memory storage.
+
+Existing Implementations
+------------------------
+The following components and features have been implemented in the frontend:
+
+1. **Chat Widget**
+   - Allows users to interact with the AI chatbot in real-time.
+   - Supports text input and voice input (via speech recognition).
+   - Displays chat messages in a scrollable window.
+   - Includes error handling for failed message delivery.
+
+2. **Settings Widget**
+   - Allows users to customize AI settings, such as:
+     - Model selection (e.g., phi:latest, GPT-3.5, GPT-4).
+     - Temperature, max tokens, and response format.
+     - System prompt and language.
+   - Saves settings to localStorage and syncs with the backend.
+
+3. **Session Management**
+   - Handles session creation, joining, and active user tracking.
+   - Updates the UI with the list of active users in real-time.
+
+4. **Speech Recognition**
+   - Integrates with the browser's Web Speech API for voice input.
+   - Supports multiple languages and handles recognition errors gracefully.
+
+5. **Voice Output**
+   - Uses the browser's SpeechSynthesis API for text-to-speech output.
+   - Allows customization of voice, pitch, rate, and volume.
+
+6. **WebSocket Integration**
+   - Manages real-time communication with the backend.
+   - Handles WebSocket connection, reconnection, and error handling.
+
+7. **Error Handling**
+   - Provides a centralized error handler for displaying and logging errors.
+   - Includes fallback mechanisms for unsupported features (e.g., speech recognition).
+
+8. **UniObjectHolder**
+   - Acts as a central repository for shared objects and data.
+   - Provides methods for adding, retrieving, and managing shared data.
+
+9. **Theme Management**
+   - Supports light, dark, and minimal themes.
+   - Saves the selected theme in localStorage for persistence.
+
+10. **UI Components**
+    - Includes reusable UI components such as buttons, dropdowns, and input fields.
+    - Follows accessibility best practices (e.g., skip links, ARIA labels).
+
+Backend Integration
+-------------------
+The frontend interacts with the backend via RESTful APIs and WebSocket connections. Key backend endpoints include:
+
+1. **Authentication**
+   - `/register`: Register a new user.
+   - `/login`: Log in and create a session.
+   - `/validate-session`: Validate the user's session.
+   - `/logout`: Log out and delete the session.
+
+2. **AI Chat**
+   - `/chat`: Send a message to the AI and receive a response.
+   - `/ai-settings`: Fetch and update AI settings (e.g., model, temperature).
+
+3. **Memory Management**
+   - `/store-message`: Store a chat message in the memories table.
+   - `/search-memories`: Search memories based on a query.
+
+4. **Session Management**
+   - `/create-session`: Create a new session.
+   - `/join-session`: Join an existing session.
+
+5. **WebSocket**
+   - `ws://localhost:5002`: Real-time communication for chat messages and active users.
+
+Future Work
+-----------
+The following improvements and features are planned for future development:
+
+1. **Enhanced Error Handling**
+   - Implement more robust error handling for API calls and WebSocket communication.
+   - Provide user-friendly error messages and recovery options.
+
+2. **Advanced Memory Management**
+   - Add support for organizing and categorizing memories.
+   - Implement a search feature for retrieving specific memories.
+
+3. **Multi-Language Support**
+   - Expand language support for speech recognition and voice output.
+   - Add localization for UI elements (e.g., buttons, labels).
+
+4. **User Authentication**
+   - Implement user authentication and authorization.
+   - Add login, registration, and profile management features.
+
+5. **Analytics and Insights**
+   - Add analytics to track user interactions and chatbot performance.
+   - Provide insights into memory usage and AI model performance.
+
+6. **Mobile Optimization**
+   - Optimize the UI for mobile devices and tablets.
+   - Add touch-friendly controls and gestures.
+
+7. **Integration with External APIs**
+   - Integrate with external APIs for additional functionality (e.g., weather, news).
+   - Allow users to customize which APIs are used.
+
+8. **Testing and Debugging**
+   - Add unit tests and integration tests for all components.
+   - Implement a debugging tool for troubleshooting issues.
+
+9. **Documentation**
+   - Create detailed documentation for developers and users.
+   - Add inline comments and JSDoc for all JavaScript files.
+
+10. **Performance Optimization**
+    - Optimize the frontend for faster load times and smoother interactions.
+    - Implement lazy loading for non-critical resources.
+
+Getting Started
+---------------
+To set up the frontend for development, follow these steps:
+
+1. Clone the repository:
+git clone https://github.com/your-repo/ai-personavault.git
+
+Copy
+
+2. Navigate to the frontend directory:
+cd ai-personavault/frontend
+
+Copy
+
+3. Install dependencies:
+npm install
+
+Copy
+
+4. Start the development server:
+npm start
+
+Copy
+
+5. Open the application in your browser:
+http://localhost:3000
+
+Copy
+
+Dependencies
+------------
+The frontend relies on the following technologies and libraries:
+- HTML5, CSS3, JavaScript (ES6+)
+- WebSocket API for real-time communication
+- Web Speech API for speech recognition and synthesis
+- localStorage for client-side data storage
+- npm for package management
+
+Contributing
+------------
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Submit a pull request with a detailed description of your changes.
+
+License
+-------
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+-------
+For questions or feedback, please contact:
+- Your Name
+- Email: your.email@example.com
+- GitHub: https://github.com/your-username

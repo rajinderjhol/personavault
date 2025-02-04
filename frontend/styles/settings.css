@@ -1,0 +1,279 @@
+/* ==================== */
+/* Settings Widget Core */
+/* ==================== */
+.settings-widget {
+    --header-spacing: 1.5rem;
+    --section-gap: 1.8rem;
+    --input-active-border: var(--primary-color);
+    --border-radius: 8px;
+    --transition-speed: 0.2s;
+    
+    background: var(--widget-background);
+    border: 1px solid var(--widget-border);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: grid;
+    gap: var(--section-gap);
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+/* ==================== */
+/* Header Section */
+/* ==================== */
+.settings-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: var(--header-spacing);
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--widget-border);
+}
+
+.create-new-button {
+    background: var(--primary-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: filter var(--transition-speed) ease;
+    font-weight: 500;
+}
+
+.create-new-button:hover {
+    filter: brightness(1.1);
+}
+
+/* ==================== */
+/* Form Sections */
+/* ==================== */
+.settings-form {
+    display: grid;
+    gap: var(--section-gap);
+}
+
+.new-settings-section {
+    padding: 1.5rem;
+    border: 2px solid var(--widget-border);
+    border-radius: var(--border-radius);
+    background: var(--input-background);
+    display: grid;
+    gap: var(--section-gap);
+}
+
+.settings-section-title {
+    color: var(--text-color);
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* ==================== */
+/* Form Groups & Inputs */
+/* ==================== */
+.settings-group {
+    margin-bottom: 1.25rem;
+    position: relative;
+}
+
+.settings-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
+.settings-group input,
+.settings-group textarea,
+.settings-group select {
+    width: 100%;
+    padding: 0.85rem;
+    border: 2px solid var(--input-border);
+    border-radius: var(--border-radius);
+    background: var(--input-background);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    transition: border-color var(--transition-speed) ease;
+}
+
+.settings-group input:focus,
+.settings-group textarea:focus,
+.settings-group select:focus {
+    border-color: var(--input-active-border);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+.settings-group textarea {
+    resize: vertical;
+    min-height: 120px;
+    line-height: 1.5;
+}
+
+/* ==================== */
+/* Specialized Components */
+/* ==================== */
+.model-dropdown-container {
+    position: relative;
+    transition: opacity var(--transition-speed) ease;
+}
+
+.model-dropdown-container.hidden {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.model-selector {
+    width: 100%;
+    padding: 0.85rem;
+    border: 2px solid var(--input-border);
+    border-radius: var(--border-radius);
+    background: var(--input-background);
+    color: var(--text-color);
+}
+
+.internet-settings-container {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--border-radius);
+}
+
+.test-connection-button {
+    background: var(--secondary-color);
+    color: var(--button-text-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: filter var(--transition-speed) ease;
+}
+
+.test-connection-button:hover {
+    filter: brightness(1.1);
+}
+
+/* ==================== */
+/* Save Button */
+/* ==================== */
+.save-settings-btn {
+    background: var(--primary-color);
+    color: var(--button-text-color);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: transform var(--transition-speed) ease;
+    margin-top: 1.5rem;
+}
+
+.save-settings-btn:hover {
+    transform: translateY(-1px);
+}
+
+/* ==================== */
+/* Messages & Feedback */
+/* ==================== */
+.error-message {
+    background: #fee2e2;
+    color: #dc2626;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+    border: 2px solid #fca5a5;
+}
+
+.success-message {
+    background: #dcfce7;
+    color: #16a34a;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+    border: 2px solid #86efac;
+}
+
+/* ==================== */
+/* Responsive Design */
+/* ==================== */
+@media (max-width: 768px) {
+    .settings-widget {
+        padding: 1rem;
+        margin: 0.5rem 0;
+    }
+    
+    .settings-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .create-new-button {
+        width: 100%;
+    }
+    
+    .new-settings-section {
+        padding: 1rem;
+    }
+}
+
+
+
+
+
+/* ==================== */
+/* Animation */
+/* ==================== */
+@keyframes settingsSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.settings-widget {
+    animation: settingsSlideIn 0.3s ease-out;
+}
+
+
+
+/* ==================== */
+/* Spinner for loading settings in widget*/
+/* ==================== */
+.loading-spinner {
+    padding: 1rem;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+
+
+.hidden { display: none; }
+.loading-spinner { 
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.error-message { color: #dc3545; padding: 10px; }
+.status-message { color: #28a745; padding: 10px; }
